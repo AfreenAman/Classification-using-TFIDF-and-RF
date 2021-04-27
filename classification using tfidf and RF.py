@@ -14,7 +14,7 @@ Steps for classification:
                         Step6: Fine tune the model
 """
 
-
+#%% install packages
 import os
 import pandas as pd
 import numpy as np
@@ -26,6 +26,7 @@ import re
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
 
+#%%
 os.chdir(r'C:\Users\AAI00920\OneDrive - ARCADIS\Desktop\NLP\classification')
 ehs_data = pd.read_csv('Sample Dataset.csv')
 
